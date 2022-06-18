@@ -1,3 +1,0 @@
-/home/cosa/git/Octopuzzler/build/CMakeFiles/Outrospection.dir
-/home/cosa/git/Octopuzzler/build/CMakeFiles/edit_cache.dir
-/home/cosa/git/Octopuzzler/build/CMakeFiles/rebuild_cache.dir
