@@ -1,4 +1,4 @@
-#version 330 core
+#version 420 core
 
 /*
 Marching Squares in a pixel shader!

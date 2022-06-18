@@ -328,7 +328,7 @@ void Outrospection::runGameLoop()
 
         crtShader.setInt("time", Util::currentTimeMillis());
         crtShader.setVec2("iResolution", glm::vec2(640, 480));
-
+        
         glActiveTexture(GL_TEXTURE0);
         glBindTexture(GL_TEXTURE_2D, fieldTexture);
         crtShader.setInt("field", 0);
