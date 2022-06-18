@@ -1,0 +1,14 @@
+# Target labels
+ vcpkg-populate
+# Source files and their labels
+/home/cosa/git/Octopuzzler/build/_deps/vcpkg-subbuild/CMakeFiles/vcpkg-populate
+/home/cosa/git/Octopuzzler/build/_deps/vcpkg-subbuild/CMakeFiles/vcpkg-populate.rule
+/home/cosa/git/Octopuzzler/build/_deps/vcpkg-subbuild/CMakeFiles/vcpkg-populate-complete.rule
+/home/cosa/git/Octopuzzler/build/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-build.rule
+/home/cosa/git/Octopuzzler/build/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-configure.rule
+/home/cosa/git/Octopuzzler/build/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-download.rule
+/home/cosa/git/Octopuzzler/build/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-install.rule
+/home/cosa/git/Octopuzzler/build/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-mkdir.rule
+/home/cosa/git/Octopuzzler/build/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-patch.rule
+/home/cosa/git/Octopuzzler/build/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-test.rule
+/home/cosa/git/Octopuzzler/build/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-update.rule

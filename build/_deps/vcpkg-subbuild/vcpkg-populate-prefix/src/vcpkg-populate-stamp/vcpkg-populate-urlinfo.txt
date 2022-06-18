@@ -1,0 +1,3 @@
+repository='external project URL'
+module='https://github.com/microsoft/vcpkg/archive/refs/tags/2021.05.12.tar.gz'
+tag=''

@@ -1,0 +1,1223 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Outrospection"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_executable",
+			"add_executable",
+			"target_link_libraries",
+			"target_compile_options",
+			"target_compile_definitions",
+			"target_include_directories",
+			"target_compile_features",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"build/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 151,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 664,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 195,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 179,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 164,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 190,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 168,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 154,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-volatile"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-O2"
+				},
+				{
+					"fragment" : "-std=gnu++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "WITH_MINIAUDIO"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/cosa/git/Octopuzzler/src"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/cosa/git/Octopuzzler/Libraries/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/cosa/git/Octopuzzler/build/vcpkg_installed/x64-linux/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-volatile"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-O2"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "WITH_MINIAUDIO"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/cosa/git/Octopuzzler/src"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/cosa/git/Octopuzzler/Libraries/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/cosa/git/Octopuzzler/build/vcpkg_installed/x64-linux/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				88,
+				89,
+				90,
+				91,
+				92,
+				93
+			]
+		}
+	],
+	"id" : "Outrospection::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "vcpkg_installed/x64-linux/debug/lib/libglad.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "vcpkg_installed/x64-linux/debug/lib/libglfw3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "vcpkg_installed/x64-linux/debug/lib/libfreetyped.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/librt.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libX11.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "vcpkg_installed/x64-linux/lib/libz.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "vcpkg_installed/x64-linux/lib/libbz2.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "vcpkg_installed/x64-linux/lib/libpng.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "vcpkg_installed/x64-linux/lib/libz.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libbrotlidec.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "vcpkg_installed/x64-linux/lib/libbrotlicommon-static.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Outrospection",
+	"nameOnDisk" : "Outrospection",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "src",
+			"sourceIndexes" : 
+			[
+				0,
+				84,
+				85,
+				86,
+				87
+			]
+		},
+		{
+			"name" : "src\\Core",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				20
+			]
+		},
+		{
+			"name" : "src\\Core\\Rendering",
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		},
+		{
+			"name" : "src\\Core\\UI",
+			"sourceIndexes" : 
+			[
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\audiosource\\monotone",
+			"sourceIndexes" : 
+			[
+				21
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\audiosource\\noise",
+			"sourceIndexes" : 
+			[
+				22
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\audiosource\\sfxr",
+			"sourceIndexes" : 
+			[
+				23
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\audiosource\\speech",
+			"sourceIndexes" : 
+			[
+				24,
+				25,
+				26,
+				27
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\audiosource\\tedsid",
+			"sourceIndexes" : 
+			[
+				28,
+				29,
+				30
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\audiosource\\vic",
+			"sourceIndexes" : 
+			[
+				31
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\audiosource\\vizsn",
+			"sourceIndexes" : 
+			[
+				32
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\audiosource\\wav",
+			"sourceIndexes" : 
+			[
+				33,
+				34,
+				35,
+				88
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\backend\\alsa",
+			"sourceIndexes" : 
+			[
+				36
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\backend\\coreaudio",
+			"sourceIndexes" : 
+			[
+				37
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\backend\\jack",
+			"sourceIndexes" : 
+			[
+				38
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\backend\\miniaudio",
+			"sourceIndexes" : 
+			[
+				39
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\backend\\nosound",
+			"sourceIndexes" : 
+			[
+				40
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\backend\\null",
+			"sourceIndexes" : 
+			[
+				41
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\backend\\openal",
+			"sourceIndexes" : 
+			[
+				42,
+				89
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\backend\\opensles",
+			"sourceIndexes" : 
+			[
+				43
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\backend\\oss",
+			"sourceIndexes" : 
+			[
+				44
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\backend\\portaudio",
+			"sourceIndexes" : 
+			[
+				45,
+				90
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\backend\\sdl",
+			"sourceIndexes" : 
+			[
+				46,
+				47,
+				91,
+				92
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\backend\\sdl2_static",
+			"sourceIndexes" : 
+			[
+				48
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\backend\\sdl_static",
+			"sourceIndexes" : 
+			[
+				49
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\backend\\wasapi",
+			"sourceIndexes" : 
+			[
+				50
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\backend\\winmm",
+			"sourceIndexes" : 
+			[
+				51
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\backend\\xaudio2",
+			"sourceIndexes" : 
+			[
+				52
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\c_api",
+			"sourceIndexes" : 
+			[
+				53
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\core",
+			"sourceIndexes" : 
+			[
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\filter",
+			"sourceIndexes" : 
+			[
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82
+			]
+		},
+		{
+			"name" : "src\\External",
+			"sourceIndexes" : 
+			[
+				83
+			]
+		},
+		{
+			"name" : "src\\External\\soloud\\tools\\resamplerlab",
+			"sourceIndexes" : 
+			[
+				93
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				94
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/Controller.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/Core/AudioManager.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/Core/LayerStack.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/Core/Rendering/Framebuffer.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/Core/Rendering/Resource.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/Core/Rendering/Shader.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/Core/Rendering/SimpleTexture.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/Core/Rendering/TextureManager.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/Core/Rendering/TickableTexture.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/Core/UI/Bounds.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/Core/UI/GUIBackground.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/Core/UI/GUIControlsOverlay.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/Core/UI/GUIGuide.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/Core/UI/GUILayer.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/Core/UI/GUIOctopusOverlay.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/Core/UI/GUIProgressBar.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/Core/UI/GUIScene.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/Core/UI/GUIWinOverlay.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/Core/UI/UIButton.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/Core/UI/UIComponent.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/Core/jthread.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/audiosource/monotone/soloud_monotone.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/audiosource/noise/soloud_noise.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/audiosource/sfxr/soloud_sfxr.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/audiosource/speech/darray.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/audiosource/speech/klatt.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/audiosource/speech/resonator.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/audiosource/speech/tts.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/audiosource/tedsid/sid.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/audiosource/tedsid/soloud_tedsid.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/audiosource/tedsid/ted.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/audiosource/vic/soloud_vic.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/audiosource/vizsn/soloud_vizsn.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/audiosource/wav/dr_impl.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/audiosource/wav/soloud_wav.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/audiosource/wav/soloud_wavstream.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/backend/alsa/soloud_alsa.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/backend/coreaudio/soloud_coreaudio.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/backend/jack/soloud_jack.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/backend/miniaudio/soloud_miniaudio.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/backend/nosound/soloud_nosound.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/backend/null/soloud_null.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/backend/openal/soloud_openal.cpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/backend/opensles/soloud_opensles.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/backend/oss/soloud_oss.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/backend/portaudio/soloud_portaudio.cpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/backend/sdl/soloud_sdl1.cpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/backend/sdl/soloud_sdl2.cpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/backend/sdl2_static/soloud_sdl2_static.cpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/backend/sdl_static/soloud_sdl_static.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/backend/wasapi/soloud_wasapi.cpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/backend/winmm/soloud_winmm.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/backend/xaudio2/soloud_xaudio2.cpp",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/c_api/soloud_c.cpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/core/soloud.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/core/soloud_audiosource.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/core/soloud_bus.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/core/soloud_core_3d.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/core/soloud_core_basicops.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/core/soloud_core_faderops.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/core/soloud_core_filterops.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/core/soloud_core_getters.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/core/soloud_core_setters.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/core/soloud_core_voicegroup.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/core/soloud_core_voiceops.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/core/soloud_fader.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/core/soloud_fft.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/core/soloud_fft_lut.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/core/soloud_file.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/core/soloud_filter.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/core/soloud_misc.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/core/soloud_queue.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/core/soloud_thread.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/filter/soloud_bassboostfilter.cpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/filter/soloud_biquadresonantfilter.cpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/filter/soloud_dcremovalfilter.cpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/filter/soloud_echofilter.cpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/filter/soloud_fftfilter.cpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/filter/soloud_flangerfilter.cpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/filter/soloud_freeverbfilter.cpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/filter/soloud_lofifilter.cpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/filter/soloud_robotizefilter.cpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/soloud/filter/soloud_waveshaperfilter.cpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/External/stb_image.cpp",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/KeyBinding.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/Outrospection.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/Source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "src/Util.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 1,
+			"path" : "src/External/soloud/audiosource/wav/stb_vorbis.c",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 1,
+			"path" : "src/External/soloud/backend/openal/soloud_openal_dll.c",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 1,
+			"path" : "src/External/soloud/backend/portaudio/soloud_portaudio_dll.c",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 1,
+			"path" : "src/External/soloud/backend/sdl/soloud_sdl1_dll.c",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 1,
+			"path" : "src/External/soloud/backend/sdl/soloud_sdl2_dll.c",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 1,
+			"path" : "src/External/soloud/tools/resamplerlab/stb_image_write.c",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 8,
+			"path" : "cmake.toml",
+			"sourceGroupIndex" : 33
+		}
+	],
+	"type" : "EXECUTABLE"
+}
